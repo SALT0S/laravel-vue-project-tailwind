@@ -45,6 +45,7 @@ return new class extends Migration
         // Drop the orders table
         Schema::dropIfExists('orders');
 
+
         // Drop the persons table
         Schema::dropIfExists('persons');
     }
